@@ -1,0 +1,102 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+
+    height: 125vh;
+    border: 5px solid #3498DB;
+    border-radius: 10px;
+    padding: 2px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+    .header{
+        width: 100%;
+        height: 15%;
+        border: 5px solid #34495E ;
+        border-radius: 5px;
+        padding: 2px;
+    }
+
+    .nav{
+        width: 100%;
+        height: 10%;
+        border: 5px solid #45B39D;
+        border-radius: 5px;
+        padding: 2px;
+    }
+
+    .main{
+        width: 100%;
+        height: 150%;
+
+        display: flex;
+        flex-direction: row;
+        gap: 2px;
+    }
+        .main__article{
+            width: 70%;
+            height: 100%;
+            border: 5px solid rgb(50, 129, 220);
+            border-radius: 5px;
+            padding: 2px;
+
+            display: flex;
+            flex-direction: column;
+            gap: 2px;
+        }
+            .article__content{
+                width: 100%;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-end;
+                gap: 2px;
+            }
+                .content__section{
+                    width: 100%;
+                    height: 10%;
+                    border: 5px solid #0B5345 ;
+                    border-radius: 5px;
+                    padding: 2px;
+                }
+
+        .main__div{
+            width: 30%;
+            height: 100%;
+            border: 5px solid #7B241C;
+            border-radius: 5px;
+            padding: 2px;
+
+            display: flex;
+            flex-direction: column;
+            gap: 2px;
+        }
+            .div__aside{
+                width: 100%;
+                height: 50%;
+                border: 5px solid #FF0000;
+                border-radius: 5px;
+                padding: 2px;
+            }
+
+    .footer{
+        width: 100%;
+        height: 10%;
+        border: 5px solid black;
+        border-radius: 5px;
+        padding: 2px;
+    }
+
+    p{
+        font-size: large;
+        font-weight: bold;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding-left: 5px;
+    }
